@@ -87,7 +87,7 @@ export class AppController {
       [7]: '일',
     };
     const webhook = new IncomingWebhook(
-      'https://hooks.slack.com/services/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',
+      'https://hooks.slack.com/services/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',
     );
     await webhook.send({
       text: '체카랩_데일리',
