@@ -13,7 +13,8 @@ export class AppController {
     this.slackClient = new WebClient(this.slackToken);
   }
 
-  @Cron('0 0 9 * * 1-5')
+  // 저녁 6시에 실행
+  @Cron('0 50 17 * * 1-5')
   async sendDaily() {
     const weekdayKoreanMapper = {
       [1]: '월',
