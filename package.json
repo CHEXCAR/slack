@@ -23,6 +23,11 @@
     "@nestjs/common": "^10.0.0",
     "@nestjs/core": "^10.0.0",
     "@nestjs/platform-express": "^10.0.0",
+    "@nestjs/schedule": "^5.0.1",
+    "@slack/web-api": "^7.8.0",
+    "@slack/webhook": "^7.0.4",
+    "@types/luxon": "^3.4.2",
+    "luxon": "^3.5.0",
     "reflect-metadata": "^0.2.0",
     "rxjs": "^7.8.1"
   },
