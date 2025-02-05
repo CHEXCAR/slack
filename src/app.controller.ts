@@ -33,7 +33,7 @@ export class AppController {
           type: 'section',
           text: {
             type: 'mrkdwn',
-            text: `:rocket: BASE 데일리_${DateTime.now().toFormat('yyyy_MM_dd')}(${weekdayKoreanMapper[DateTime.now().weekday]})`,
+            text: `:compass: BASE 데일리_${DateTime.now().toFormat('yyyy_MM_dd')}(${weekdayKoreanMapper[DateTime.now().weekday]})`,
           },
         },
         {
@@ -65,7 +65,7 @@ export class AppController {
           type: 'section',
           text: {
             type: 'mrkdwn',
-            text: `:rocket: MOS 데일리_${DateTime.now().toFormat('yyyy_MM_dd')}(${weekdayKoreanMapper[DateTime.now().weekday]})`,
+            text: `:building_construction: MOS 데일리_${DateTime.now().toFormat('yyyy_MM_dd')}(${weekdayKoreanMapper[DateTime.now().weekday]})`,
           },
         },
         {
